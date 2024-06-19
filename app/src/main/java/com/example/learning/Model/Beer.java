@@ -1,6 +1,6 @@
 package com.example.learning.Model;
 
-public class Beer {
+public class Beer implements Serializable {
     private int BeerCode;
     private String BeerName;
     private double BeerPrice;
